@@ -1,0 +1,48 @@
+#panel-root {
+  height: 100%;
+  width: 30vw;
+  border-left: 1px solid #00000024;
+  border-top: 1px solid #00000024;
+}
+
+#message-node {
+  display: flex;
+  flex-direction: column;
+  color: #4227a5c4;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 20px;
+  width: 200px;
+}
+
+#message-icon {
+  margin-bottom: 10px;
+}
+
+#settings-panel-header {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+#settings-panel-header-container {
+  border-bottom: 1px solid #00000024;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#text-area-header {
+  color: #5f5d5dad;
+  padding-top: 35px;
+  padding-left: 12px;
+}
+
+#text-area {
+  margin-left: 12px;
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 6px;
+  border-color: #5f5d5d3b;
+}

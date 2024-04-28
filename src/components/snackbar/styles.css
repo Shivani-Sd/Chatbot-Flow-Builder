@@ -1,0 +1,20 @@
+#snackbar {
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d5a4a4;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    font-weight: 700;
+  }
+  
+  #snackbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  

@@ -1,0 +1,34 @@
+#text-node {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  width: 250px;
+}
+
+#text-node-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #1eb0c970;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 700;
+}
+
+#text-node-sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+}
+
+#whatsapp-icon {
+  padding: 4px;
+  padding-bottom: 2px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+#text-message {
+  padding: 20px;
+}
