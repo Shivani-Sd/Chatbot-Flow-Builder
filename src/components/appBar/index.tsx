@@ -20,13 +20,15 @@ const AppBar: React.FC<AppBarProps> = ({ handleSave }) => {
 
   return (
     <div id="app-bar">
-      <button
-        className={isClicked ? "button-clicked" : ""}
-        id="save-button"
-        onClick={onClickSave}
-      >
-        Save Changes
-      </button>
+      <div id='button-container'>
+        <button
+          className={isClicked ? "button-clicked" : ""}
+          id="save-button"
+          onClick={onClickSave}
+        >
+          Save Changes
+        </button>
+      </div>
     </div>
   );
 };

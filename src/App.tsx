@@ -157,7 +157,7 @@ function App() {
         <div id="main-panel">
           <div
             style={{
-              width: "70vw",
+              width: "80vw",
               height: "calc(100vh - 60px)",
             }}
             ref={drop}
