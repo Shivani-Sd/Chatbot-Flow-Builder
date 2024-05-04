@@ -17,6 +17,7 @@ import NodesPanel from "./components/nodesPanel";
 import TextNode from "./components/textNode";
 import AppBar from "./components/appBar";
 import Snackbar from "./components/snackbar";
+
 import "./App.css";
 
 const nodeTypes = {
@@ -115,8 +116,7 @@ function App() {
     }, new Set());
 
     // Show a snackbar if the total number of node IDs and node IDs with edges are different
-    if (nodeIds.length !== nodesFromEdges.size)
-      setShowSnackbar(true);
+    if (nodeIds.length !== nodesFromEdges.size) setShowSnackbar(true);
     else {
       setNodes((prevNodes) =>
         prevNodes.map((node) => ({
